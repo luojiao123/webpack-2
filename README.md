@@ -39,13 +39,13 @@ npm i webpack-dev-server -g   // 安装过就无需再次安装
 
 devServer:{
 
-port:1289,   // 端口配置
+  port:1289,   // 端口配置
 
-open:true,   // 运行就直接在浏览器打开，默认false
+  open:true,   // 运行就直接在浏览器打开，默认false
 
-inline:true,   // 自动刷新，默认true
+  inline:true,   // 自动刷新，默认true
 
-contentBase:'./app', // 指定服务器目录
+  contentBase:'./app', // 指定服务器目录
 
 }
 
